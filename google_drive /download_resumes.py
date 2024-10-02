@@ -38,7 +38,8 @@ else:
         with open(file_path, 'wb') as f: 
             downloader = MediaIoBaseDownload(f, request)
             done = False 
-            while not done: 
+            while not done:
+                # Get a tuple from the downloader object.  
                 status, done = downloader.next_chunk()
                 print(f"Download {int(status.progress() * 100)}%.")
 
