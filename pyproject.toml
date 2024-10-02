@@ -11,6 +11,8 @@ google-auth-httplib2 = "^0.2.0"
 google-auth-oauthlib = "^1.2.1"
 tinydb = "^4.8.0"
 pydantic = "^2.9.2"
+streamlit = "^1.39.0"
+streamlit-aggrid = "^1.0.5"
 
 [tool.poetry.dev-dependencies]
 
